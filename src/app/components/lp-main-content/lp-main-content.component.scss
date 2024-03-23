@@ -20,8 +20,9 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
-  padding: 1rem;
+  font-size: 2rem;
+  padding: 0rem;
+  margin: 0.5rem;
   color: white;
 }
 
@@ -31,8 +32,8 @@ h2 {
     no-repeat; /* Set the background image */
   background-size: contain; /* Use contain to maintain aspect ratio */
   background-position: center; /* Center the background image */
-  width: 300px; /* Set the width of the button */
-  height: 100px; /* Automatically adjust height based on width */
+  width: 193px; /* Set the width of the button */
+  height: 48px; /* Automatically adjust height based on width */
   cursor: pointer;
 }
 
@@ -40,21 +41,21 @@ h2 {
   /* Styles for smartphones */
   /* Adjust font sizes, padding, margins, etc. */
   h1 {
-    font-size: 5rem;
-    padding: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
     margin: 1rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 0rem;
     margin: 0rem;
     color: white;
   }
 
   .stravaConnectButton {
-    width: 150px;
-    height: 50px;
+    width: 145px;
+    height: 36px;
   }
 }
 
@@ -68,7 +69,12 @@ h2 {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 0rem;
+  }
+
+  .stravaConnectButton {
+    width: 145px;
+    height: 36px;
   }
 }
