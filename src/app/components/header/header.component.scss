@@ -10,3 +10,21 @@ mat-toolbar {
     align-items: center;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  /* Styles for smartphones */
+  .stravaPowered {
+    width: 100px;
+    height: auto;
+  }
+
+  .stravaPowered {
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1023px) {
+  /* Styles for tablets and small laptops */
+  /* Adjust column layouts, font sizes, etc. */
+}
