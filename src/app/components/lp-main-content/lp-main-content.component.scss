@@ -1,5 +1,4 @@
 .lp-main {
-  height: 80%;
   .lp-content {
     margin-top: 10rem;
     display: flex;
@@ -28,12 +27,12 @@ h2 {
 
 .stravaConnectButton {
   border: none; /* Remove the default button border */
-  background: url("../../../assets/images/btn_strava_connectwith_orange.png")
+  background: url("../../../assets/images/btn_strava_connectwith_orange@2x.png")
     no-repeat; /* Set the background image */
   background-size: contain; /* Use contain to maintain aspect ratio */
   background-position: center; /* Center the background image */
-  width: 193px; /* Set the width of the button */
-  height: 48px; /* Automatically adjust height based on width */
+  width: 386px; /* Set the width of the button */
+  height: 96px; /* Automatically adjust height based on width */
   cursor: pointer;
   margin: 2rem;
 }
@@ -55,8 +54,8 @@ h2 {
   }
 
   .stravaConnectButton {
-    width: 145px;
-    height: 36px;
+    width: 193px;
+    height: 48px;
   }
 }
 
@@ -75,7 +74,7 @@ h2 {
   }
 
   .stravaConnectButton {
-    width: 145px;
-    height: 36px;
+    width: 290px;
+    height: 72px;
   }
 }
